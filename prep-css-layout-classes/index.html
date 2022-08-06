@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+max-width: 992px;
+margin: auto;
+display: flex;
+    }
+
+    .row {
+width: 100%;
+display: flex;
+
+    }
+
+    .column {
+flex-basis: calc(100%/3);
+padding-left: 8px;
+padding-right: 8px;
+}
+
+
+
+
+  </style>
+</head>
+<body>
+  <h1>Indiana Jones</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/crusade.jpg" alt="The Last Crusade Poster">
+        <h3> The Last Crusade</h3>
+        <p>After the mixed reaction to Indiana Jones and the Temple of Doom, Spielberg chose to tone down the dark tone and graphic violence in the next installment.  During the five years between the Temple of Doom and the Last Crusade, Harrison Ford pursued other interests</p>
+      </div>
+
+      <div class="column">
+        <img src="images/raiders.jpg" alt="Raiders of the Lost Ark Poster">
+        <h3>Raiders of the Lost Ark </h3>
+        <p>I have not seen this movie but i hear about all the time in pop culture.  My only guess would be that the movie is good.</p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg" alt="Temple of the Crystal Skull">
+        <h3> Temple of The Crystal Skull </h3>
+        <p>This is the only Indiana Jones movie I have ever watched.  It was so bad that I lost all desire to watch another Indiana Jones Movie.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+</body>
+</html>
